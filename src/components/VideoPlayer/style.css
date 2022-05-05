@@ -19,6 +19,12 @@ video {
     display: flex;
     align-items: center;
 }
+.video-controllers {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .videoBackground {
     height: 196px;
     width: 100%;
