@@ -1,0 +1,36 @@
+.controls .progress progress{
+	cursor:pointer;
+	width: 100%;
+}
+.videoContainer {
+    position: relative;
+}
+.controls {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+video {
+    width: 100%;
+    vertical-align: middle;
+}
+.progress {
+    height: 8px;
+    display: flex;
+    align-items: center;
+}
+.videoBackground {
+    height: 196px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADECAYAAABeMEuOAAAAAXNSR0IArs4c6QAAARNJREFUOE9lyNdHBQAAhfHb3nvvuu2997jNe29TJJEkkkgSSSSJJJJEEkkiifRH5jsP56Xz8PM5gcC/xfCIWBNHiXiTQIlEk0SJZJNCiVSTRol0k0GJTJNFiWyTQ4lck0eJfFNAiUIoMsWUKDGllCgz5ZSoMJWUqDLVlKgxQUrUmjpK1JsGSjSaJko0mxZKtJo2SrSbDkp0mi5KdJseSvSaPkr0mwFKDJohSgybEUqMwpgZp8SECVFi0kxRYtrMUGLWzFEibCKUiJp5SiyYRUosmWVqBVZhDdZhAzZhC7ZhB3ZhD/bhAA7hCI7hBE7hDM7hAi7hCq7hBm7hDu7hAR7hCZ7hBV7hDd7hAz7hC77hB37/AGujK1tHd5MJAAAAAElFTkSuQmCC);
+}
+.progress-bar-item {
+    height: 4px;
+    margin-right: 3px;
+    background-color: rgba(255,255,255,.2)
+}
+.progress-bar-item:hover {
+    height: 8px;
+}
